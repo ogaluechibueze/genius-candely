@@ -115,7 +115,7 @@ import {
               <Img
                 style={image}
                 width={620}
-                src={`${baseUrl}/static/GENIUSWORLD.png`}
+                src={`${baseUrl}/static/GENIUSWORLD.PNG`}
               />
             </Section>
   
