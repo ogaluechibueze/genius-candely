@@ -5,7 +5,7 @@ import React from 'react'
 
 function Hero () {
   return (
-    <div className='flex flex-col justify-center items-center my-20'>
+    <div className='flex flex-col justify-center items-center my-20 p-8'>
          {/* <div className='hidden lg:block'>
             <Image src='/profile1.png' width={100} height={100}
             className='h-[100px] object-cover rounded-full absolute right-36'/>
@@ -24,7 +24,7 @@ function Hero () {
             <h3>Sign Up For Free With Google and Facebook</h3>
             <div className='flex justify-center gap-8'>
                
-                    <Image src='/GENIUSWORLD.png' width={ 500} height={500}/>
+                    <Image src='/GENIUSWORLD.PNG' width={ 500} height={500}/>
                    
                 {/* <Button className="flex gap-4 p-7">
                     <Image src='/facebook.png' width={30} height={30}/>
