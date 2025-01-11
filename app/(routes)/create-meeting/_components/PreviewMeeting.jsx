@@ -33,7 +33,7 @@ const PreviewMeeting = ({formValue}) => {
 
   return (
     <div className='p-5 py-10 shadow-lg m-5 border-t-8'  style={{borderTopColor:formValue?.themeColor}}>
-        <Image src='/genius.png' alt='logo' width={100} height={100}/>
+        <Image src='/logo4.png' alt='logo' width={100} height={100}/>
     <div className='grid grid-cols-1 md:grid-cols-3 mt-5'>
     <div className='p-4 border-r'>
       <h2 className=''>Business Name:</h2>
@@ -45,7 +45,7 @@ const PreviewMeeting = ({formValue}) => {
        className='text-primary'>{formValue?.locationUrl}</Link>
       </div>
     </div>
-    <div className='md:col-span-2 flex px-4'>
+    <div className='md:col-span-2 px-4 md:flex'>
     <div className='flex flex-col'>
         <h2 className='font-bold text-lg'>Select Date & Time</h2>
         <Calendar
